@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>My Blog</title>
+    <subtitle>Blog</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2021-06-13T12:32:49.705Z</updated>
+    <id>My Notion Blog</id>
+    <entry>
+      <id>/blog/next-js-blog-number-1</id>
+      <title>NextJs blog number 1</title>
+      <link href="/blog/next-js-blog-number-1"/>
+      <updated>2021-06-12T17:00:00.288Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/next-js-blog-number-1">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>gnurt Happy</name></author>
+    </entry>
+    <entry>
+      <id>/blog/next-js-blog-number-2</id>
+      <title>NextJs blog number 2</title>
+      <link href="/blog/next-js-blog-number-2"/>
+      <updated>2021-06-06T17:00:00.288Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/next-js-blog-number-2">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>gnurt Happy</name></author>
+    </entry>
+  </feed>
