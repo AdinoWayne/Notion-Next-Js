@@ -14,8 +14,8 @@ import getNotionUsers from '../../lib/notion/getNotionUsers'
 import getBlogIndex from '../../lib/notion/getBlogIndex'
 
 export async function getStaticProps({ preview }) {
-  const postsTable = await getB
-  logIndex()
+  const postsTable = await getBlogIndex()
+
   const authorsToGet: Set<string> = new Set()
   const posts: any[] = Object.keys(postsTable)
     .map((slug) => {
@@ -87,8 +87,7 @@ const Index = ({ posts = [], preview }) => {
                 <div className="posted">Posted: {getDateStr(post.Date)}</div>
               )}
               <p>
-                {(!post.preview || post.preview.length === 0) &&
-                  ''}
+                {(!post.preview || post.preview.length === 0) && ''}
                 {(post.preview || []).map((block, idx) =>
                   textBlock(block, true, `${post.Slug}${idx}`)
                 )}
