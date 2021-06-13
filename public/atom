@@ -4,13 +4,13 @@
     <subtitle>Blog</subtitle>
     <link href="/atom" rel="self" type="application/rss+xml"/>
     <link href="/" />
-    <updated>2021-06-13T16:17:38.289Z</updated>
+    <updated>2021-06-13T16:34:36.669Z</updated>
     <id>My Notion Blog</id>
     <entry>
       <id>/blog/next-js-blog-number-1</id>
       <title>NextJs blog number 1</title>
       <link href="/blog/next-js-blog-number-1"/>
-      <updated>2021-06-12T17:00:00.905Z</updated>
+      <updated>2021-06-12T17:00:00.806Z</updated>
       <content type="xhtml">
         <div xmlns="http://www.w3.org/1999/xhtml">
           
@@ -25,7 +25,7 @@
       <id>/blog/next-js-blog-number-2</id>
       <title>NextJs blog number 2</title>
       <link href="/blog/next-js-blog-number-2"/>
-      <updated>2021-06-06T17:00:00.906Z</updated>
+      <updated>2021-06-06T17:00:00.807Z</updated>
       <content type="xhtml">
         <div xmlns="http://www.w3.org/1999/xhtml">
           

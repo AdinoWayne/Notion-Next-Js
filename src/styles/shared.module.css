@@ -4,8 +4,12 @@
   display: block;
   height: auto;
 }
-
+.img_wrapper {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+}
 .layout h1,
-.layout h2 {
+.layout h4 {
   text-align: center;
 }
