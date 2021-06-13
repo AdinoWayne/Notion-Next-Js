@@ -10,7 +10,7 @@ This is an example Next.js project that shows Next.js' upcoming SSG (static-site
 
 To get your blog index value, open Notion and Navigate to the Notion page with the table you created above. While on this page you should be able to get the page id from either:
 
-- the URL, if the URL of your page is https://www.notion.so/Blog-S5qv1QbUzM1wxm3H3SZRQkupi7XjXTul then your `BLOG_INDEX_ID` is `S5qv1QbU-zM1w-xm3H-3SZR-Qkupi7XjXTul`
+- the URL, if the URL of your page is https://www.notion.so/chickenkid/HowToDoThat-6f6e322f329145baa0907d2c6ed02df0 then your `BLOG_INDEX_ID` is `6f6e322f329145baa0907d2c6ed02df0`
 - the `loadPageChunk` request, if you open your developer console and go to the network tab then reload the page you should see a request for `loadPageChunk` and in the request payload you should see a `pageId` and that is your `BLOG_INDEX_ID`
 
 To get your Notion token, open Notion and look for the `token_v2` cookie.
